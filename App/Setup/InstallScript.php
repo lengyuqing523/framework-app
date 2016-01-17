@@ -35,7 +35,7 @@ class InstallScript
 
 		if (!file_exists($imgAssetsPath))
 		{
-			symlink($bsImagePath, $imgAssetsPath);
+			//symlink($bsImagePath, $imgAssetsPath);
 		}
 
 		// Symlink js
@@ -44,7 +44,7 @@ class InstallScript
 
 		if (!file_exists($jsAssetsPath))
 		{
-			symlink($bsJSPath, $jsAssetsPath);
+			//symlink($bsJSPath, $jsAssetsPath);
 		}
 
 		// Symlink css
@@ -53,7 +53,7 @@ class InstallScript
 
 		if (!file_exists($cssAssetsPath))
 		{
-			symlink($bsCSSPath, $cssAssetsPath);
+			//symlink($bsCSSPath, $cssAssetsPath);
 		}
 	}
 }
